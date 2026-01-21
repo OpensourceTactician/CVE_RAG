@@ -22,66 +22,74 @@ if not pinecone_api_key:
 pc = Pinecone(api_key=pinecone_api_key)
 index = pc.Index("cve-rag")
 
-def get_embedding(text: str, model: str = "text-embedding-3-small") -> List[float]:
-    """Generate embedding for the given text."""
-    response = openai.embeddings.create(input=[text], model=model)
-    return response.data[0].embedding
 
-def batch_upload_cves(batch_size: int = 100, delay: float = 1.0) -> None:
+def get_embeddings_batch(texts: List[str], model: str = "text-embedding-3-small") -> List[List[float]]:
+    """Generate embeddings for multiple texts in one API call."""
+    response = openai.embeddings.create(input=texts, model=model)
+    return [item.embedding for item in response.data]
+
+
+def batch_upload_cves(batch_size: int = 100, embedding_batch_size: int = 500) -> None:
     """
-    Upload all CVEs to Pinecone in batches.
+    Upload all CVEs to Pinecone in batches with batched embedding generation.
 
     Args:
-        batch_size: Number of CVEs to upload in each batch
-        delay: Delay in seconds between batches to avoid rate limits
+        batch_size: Number of CVEs to upsert to Pinecone at once
+        embedding_batch_size: Number of embeddings to generate in one OpenAI call
     """
     total_cves = get_cve_count()
     print(f"Total CVEs to upload: {total_cves}")
+    print(f"Embedding batch size: {embedding_batch_size}, Pinecone batch size: {batch_size}")
 
     uploaded_count = 0
-    batch = []
+    pending_cves = []
 
     for cve_data in load_cves_from_directory():
         if not cve_data.get('id') or not cve_data.get('embedding_input'):
-            print(f"[WARN] Skipping CVE with missing id or embedding_input")
             continue
 
-        try:
-            # Generate embedding
-            vector = get_embedding(cve_data['embedding_input'])
+        pending_cves.append(cve_data)
 
-            # Prepare for batch upload
-            batch.append({
-                "id": cve_data['id'],
-                "values": vector,
-                "metadata": cve_data['metadata']
-            })
+        # Process when we have enough for an embedding batch
+        if len(pending_cves) >= embedding_batch_size:
+            uploaded_count = process_batch(pending_cves, uploaded_count, total_cves, batch_size)
+            pending_cves = []
 
-            # Upload batch when it reaches the specified size
-            if len(batch) >= batch_size:
-                index.upsert(batch)
-                uploaded_count += len(batch)
-                print(f"[OK] Uploaded batch of {len(batch)} CVEs ({uploaded_count}/{total_cves})")
-                batch = []
-
-                # Add delay to avoid rate limits
-                if delay > 0:
-                    time.sleep(delay)
-
-        except Exception as e:
-            print(f"[ERR] Error processing {cve_data.get('id', 'unknown')}: {e}")
-            continue
-
-    # Upload remaining CVEs in the last batch
-    if batch:
-        try:
-            index.upsert(batch)
-            uploaded_count += len(batch)
-            print(f"[OK] Uploaded final batch of {len(batch)} CVEs ({uploaded_count}/{total_cves})")
-        except Exception as e:
-            print(f"[ERR] Error uploading final batch: {e}")
+    # Process remaining CVEs
+    if pending_cves:
+        uploaded_count = process_batch(pending_cves, uploaded_count, total_cves, batch_size)
 
     print(f"Upload complete! Successfully uploaded {uploaded_count} CVEs to Pinecone index 'cve-rag'")
 
+
+def process_batch(cves: List[Dict], uploaded_count: int, total_cves: int, pinecone_batch_size: int) -> int:
+    """Process a batch of CVEs - generate embeddings and upload to Pinecone."""
+    try:
+        # Generate all embeddings in one call
+        texts = [cve['embedding_input'] for cve in cves]
+        embeddings = get_embeddings_batch(texts)
+
+        # Prepare vectors for Pinecone
+        vectors = []
+        for cve, embedding in zip(cves, embeddings):
+            vectors.append({
+                "id": cve['id'],
+                "values": embedding,
+                "metadata": cve['metadata']
+            })
+
+        # Upsert to Pinecone in chunks
+        for i in range(0, len(vectors), pinecone_batch_size):
+            chunk = vectors[i:i + pinecone_batch_size]
+            index.upsert(chunk)
+            uploaded_count += len(chunk)
+            print(f"[OK] Uploaded {uploaded_count}/{total_cves} ({100*uploaded_count/total_cves:.1f}%)")
+
+    except Exception as e:
+        print(f"[ERR] Error processing batch: {e}")
+
+    return uploaded_count
+
+
 if __name__ == "__main__":
-    batch_upload_cves()
+    batch_upload_cves(batch_size=100, embedding_batch_size=1000)
