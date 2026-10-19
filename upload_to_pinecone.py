@@ -69,7 +69,7 @@ def arguments() -> argparse.Namespace:
     )
     p.add_argument("--manifest", type=Path, default=ROOT / "data" / "manifest.json")
     p.add_argument("--index", default=os.getenv("PINECONE_INDEX_NAME", "cve-rag"))
-    p.add_argument("--namespace", default=os.getenv("PINECONE_NAMESPACE", "cve-20260929"))
+    p.add_argument("--namespace", default=os.getenv("PINECONE_NAMESPACE", "cve-20261019"))
     p.add_argument("--model", default=os.getenv("OPENAI_EMBED_MODEL", "text-embedding-3-small"))
     p.add_argument(
         "--dimension",
