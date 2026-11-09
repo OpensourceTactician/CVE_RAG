@@ -2,11 +2,11 @@
 
 A portable CVE corpus for semantic retrieval. It contains one bounded record per CVE, no embeddings, no audit output, no updater framework, and only the two Python programs needed to create and load a Pinecone index.
 
-The canonical files in [`data/`](data/README.md) contain 398,551 searchable CVEs in 28 readable JSON files, grouped by CVE ID year from `1999` through `2026`. Another 868 rejected CVEs are retained separately and never uploaded. `data/manifest.json` records counts, byte sizes, SHA-256 checksums, source cutoffs, and incremental additions.
+The canonical files in [`data/`](data/README.md) contain 401,873 searchable CVEs in 28 readable JSON files, grouped by CVE ID year from `1999` through `2026`. Another 868 rejected CVEs are retained separately and never uploaded. `data/manifest.json` records counts, byte sizes, SHA-256 checksums, source cutoffs, and incremental additions.
 
-The November 2 update adds **7,405 newly published CVEs** from after `2026-10-19T15:57:38Z` through `2026-11-02T13:54:38Z`. Existing records are unchanged and retain their earlier source dates. This is a mixed snapshot: the July 13 base, September 9 refresh of 2026 records, and subsequent incremental additions are documented separately in the manifest. New publications are grouped by their CVE ID year, even when that year is older. Weekly updates add new publications only.
+The November 9 update adds **3,322 newly published CVEs** from after `2026-11-02T13:54:38Z` through `2026-11-09T13:57:43Z`. Existing records are unchanged and retain their earlier source dates. This is a mixed snapshot: the July 13 base, September 9 refresh of 2026 records, and subsequent incremental additions are documented separately in the manifest. New publications are grouped by their CVE ID year, even when that year is older. Weekly updates add new publications only.
 
-For the new additions, CVE publications were checked through `2026-11-02T13:54:38Z` and NVD source snapshots extend through `2026-11-02T13:54:38Z`, EPSS was scored at `2026-11-02T12:00:30Z`, and KEV catalog `2026.10.30` was released at `2026-10-30T17:02:45.3665Z`. NVD enrichment is unavailable for 15 additions and EPSS for 181; those fields remain absent. Existing records are not revalidated against newer source statuses or enrichment during incremental updates.
+For the new additions, CVE publications were checked through `2026-11-09T13:57:43Z` and NVD source snapshots extend through `2026-11-09T13:57:43Z`, EPSS was scored at `2026-11-09T12:00:23Z`, and KEV catalog `2026.11.06` was released at `2026-11-06T19:44:45.1797Z`. NVD enrichment is unavailable for 8 additions and EPSS for 116; those fields remain absent. Existing records are not revalidated against newer source statuses or enrichment during incremental updates.
 
 ## Record contract
 
@@ -58,7 +58,7 @@ cp .env.example .env
 python upload_to_pinecone.py --dry-run
 ```
 
-The dry run uses no API keys or network. To create a hosted index, add your OpenAI and Pinecone API keys to `.env`, set `PINECONE_NAMESPACE=cve-20261102`, then run:
+The dry run uses no API keys or network. To create a hosted index, add your OpenAI and Pinecone API keys to `.env`, set `PINECONE_NAMESPACE=cve-20261109`, then run:
 
 ```bash
 python create_pinecone_index.py

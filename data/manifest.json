@@ -4,8 +4,8 @@
   "base_source_schema_version": 6,
   "counts": {
     "rejected": 868,
-    "search": 398551,
-    "total": 399419
+    "search": 401873,
+    "total": 402741
   },
   "excluded_sources": [
     "VulnCheck service/feed enrichments",
@@ -16,11 +16,11 @@
   ],
   "format": "portable-cve-rag",
   "lifecycle_counts": {
-    "PUBLISHED": 398551,
+    "PUBLISHED": 401873,
     "REJECTED": 868
   },
   "partitioning": "cve-id-year",
-  "raw_cvelist_records_joined": 399419,
+  "raw_cvelist_records_joined": 402741,
   "record_contract": {
     "max_metadata_bytes": 39000,
     "max_stored_metadata_bytes": 39000,
@@ -241,26 +241,26 @@
       "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-10-19T15:57:38Z through 2026-11-02T13:54:38Z added. See incremental_updates for earlier additions."
     },
     {
-      "bytes": 40403524,
+      "bytes": 40406195,
       "first_id": "CVE-2019-0001",
       "last_id": "CVE-2019-1020019",
       "path": "data/CVE-2019.json",
-      "record_count": 16098,
-      "sha256": "4c2e786d6c0a1e725d8fdf107be3716cfb6e30e1629ae5de100b2288185ace46",
+      "record_count": 16099,
+      "sha256": "7f12dd5492e9fdaf18c0d01447ba61fc0970d6680a1e07c2ea219ab851d0b6bf",
       "snapshot_date": "2026-07-13",
-      "last_additions_at": "2026-11-02T13:54:38Z",
-      "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-10-19T15:57:38Z through 2026-11-02T13:54:38Z added. See incremental_updates for earlier additions."
+      "last_additions_at": "2026-11-09T13:57:43Z",
+      "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-11-02T13:54:38Z through 2026-11-09T13:57:43Z added. See incremental_updates for earlier additions."
     },
     {
-      "bytes": 49459333,
+      "bytes": 49461249,
       "first_id": "CVE-2020-0001",
       "last_id": "CVE-2020-37289",
       "path": "data/CVE-2020.json",
-      "record_count": 19397,
-      "sha256": "b6a127a8061d40b5a00a607c985037bf05eeb7033656bbc947becbda37c27797",
+      "record_count": 19398,
+      "sha256": "c672058a3137d6a69343b776415f3d5df946b157357a89db230049c815c94e25",
       "snapshot_date": "2026-07-13",
-      "last_additions_at": "2026-11-02T13:54:38Z",
-      "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-10-19T15:57:38Z through 2026-11-02T13:54:38Z added. See incremental_updates for earlier additions."
+      "last_additions_at": "2026-11-09T13:57:43Z",
+      "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-11-02T13:54:38Z through 2026-11-09T13:57:43Z added. See incremental_updates for earlier additions."
     },
     {
       "bytes": 58687057,
@@ -274,15 +274,15 @@
       "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-10-19T15:57:38Z through 2026-11-02T13:54:38Z added. See incremental_updates for earlier additions."
     },
     {
-      "bytes": 72146937,
+      "bytes": 72157764,
       "first_id": "CVE-2022-0001",
       "last_id": "CVE-2022-51026",
       "path": "data/CVE-2022.json",
-      "record_count": 26436,
-      "sha256": "797084207847b90f2f42f8b51b120a0e27d1e47704ce975aef53b29e167dc3ab",
+      "record_count": 26438,
+      "sha256": "2dd92e959092be6cc2532417bec0dec84057ee5ea80af231a9d35a35f8f43b5c",
       "snapshot_date": "2026-07-13",
-      "last_additions_at": "2026-11-02T13:54:38Z",
-      "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-10-19T15:57:38Z through 2026-11-02T13:54:38Z added. See incremental_updates for earlier additions."
+      "last_additions_at": "2026-11-09T13:57:43Z",
+      "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-11-02T13:54:38Z through 2026-11-09T13:57:43Z added. See incremental_updates for earlier additions."
     },
     {
       "bytes": 86856754,
@@ -296,38 +296,38 @@
       "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-10-19T15:57:38Z through 2026-11-02T13:54:38Z added. See incremental_updates for earlier additions."
     },
     {
-      "bytes": 115551483,
+      "bytes": 115562581,
       "first_id": "CVE-2024-0001",
       "last_id": "CVE-2024-58400",
       "path": "data/CVE-2024.json",
-      "record_count": 38436,
-      "sha256": "0704e16fd105aa434edd9ad706c361ad2c545462331bdc57139f60fb433e64c9",
+      "record_count": 38438,
+      "sha256": "f99cf2f40a028c4372755991f3048694e7f81d1c8a7a936ec3a3f6e2a01e545e",
       "snapshot_date": "2026-07-13",
-      "last_additions_at": "2026-11-02T13:54:38Z",
-      "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-10-19T15:57:38Z through 2026-11-02T13:54:38Z added. See incremental_updates for earlier additions."
+      "last_additions_at": "2026-11-09T13:57:43Z",
+      "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-11-02T13:54:38Z through 2026-11-09T13:57:43Z added. See incremental_updates for earlier additions."
     },
     {
-      "bytes": 131195071,
+      "bytes": 131338757,
       "first_id": "CVE-2025-0001",
-      "last_id": "CVE-2025-71439",
+      "last_id": "CVE-2025-71458",
       "path": "data/CVE-2025.json",
-      "record_count": 43367,
-      "sha256": "93ba248379dcc48179de32c2fb4ecdf329132575f166971b1a24a498d1842693",
+      "record_count": 43395,
+      "sha256": "7d571698e1e5fd9df527adf95b1965577b68b596292bad5583235e2a2b4b242a",
       "snapshot_date": "2026-07-13",
-      "last_additions_at": "2026-11-02T13:54:38Z",
-      "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-10-19T15:57:38Z through 2026-11-02T13:54:38Z added. See incremental_updates for earlier additions."
+      "last_additions_at": "2026-11-09T13:57:43Z",
+      "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-11-02T13:54:38Z through 2026-11-09T13:57:43Z added. See incremental_updates for earlier additions."
     },
     {
-      "bytes": 404328195,
+      "bytes": 418056341,
       "cve_source_cutoff": "2026-09-09T14:42:39Z",
       "first_id": "CVE-2026-0001",
-      "last_id": "CVE-2026-120463",
+      "last_id": "CVE-2026-124684",
       "path": "data/CVE-2026.json",
-      "record_count": 82419,
-      "sha256": "fe1997455b11afac451a7e235148ab7ebe4a619786304f6fe69416f891dd02cc",
+      "record_count": 85707,
+      "sha256": "10255ee24dc59da3b6dc52fd891b13a22d728f4231d96aa69c87c69e38aaed13",
       "snapshot_date": "2026-09-09",
-      "last_additions_at": "2026-11-02T13:54:38Z",
-      "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-10-19T15:57:38Z through 2026-11-02T13:54:38Z added. See incremental_updates for earlier additions."
+      "last_additions_at": "2026-11-09T13:57:43Z",
+      "snapshot_scope": "Existing records retain prior snapshots; only new publications after 2026-11-02T13:54:38Z through 2026-11-09T13:57:43Z added. See incremental_updates for earlier additions."
     }
   ],
   "storage_format": "json-array",
@@ -449,7 +449,7 @@
     }
   },
   "update_mode": "new-publications-only",
-  "last_new_publication_cutoff": "2026-11-02T13:54:38Z",
+  "last_new_publication_cutoff": "2026-11-09T13:57:43Z",
   "snapshot_scope": "Mixed snapshots: existing records unchanged; only new CVEs published after the last cutoff are added. See year_refreshes, incremental_updates, and per-record source dates.",
   "incremental_updates": [
     {
@@ -4857,6 +4857,760 @@
         "rejected_file_byte_identical": true,
         "unaffected_yearly_files_byte_identical": 12,
         "new_source_values_verified": 7405,
+        "source_checks": [
+          "publication window, state, and complete pinned archive",
+          "CVE provenance, descriptions, titles, and references",
+          "CVSS provider, score, vector, version, severity, and access conditions",
+          "EPSS file integrity, model, values, and missingness",
+          "KEV catalog version, membership, and fields",
+          "NVD feed and metadata-file integrity, raw API page hashes and pagination, latest-row selection, and boolean conditions",
+          "version status changes and scoped defaults",
+          "guidance presence and explicit omission counts"
+        ],
+        "complete_corpus_checks": [
+          "JSON schema and flat metadata",
+          "globally unique IDs, ID year, and numeric ordering",
+          "counts, byte sizes, and SHA-256 checksums",
+          "text and stored metadata byte limits"
+        ],
+        "maximum_corpus_text_utf8_bytes": 7266,
+        "maximum_corpus_stored_metadata_bytes": 35964,
+        "offline_uploader_dry_run": "passed",
+        "offline_uploader_regression_tests": 9,
+        "paid_or_live_upload_validation": false
+      }
+    },
+    {
+      "publication_window_start_exclusive": "2026-11-02T13:54:38Z",
+      "publication_window_end_inclusive": "2026-11-09T13:57:43Z",
+      "added_published": 3322,
+      "additions_by_cve_id_year": {
+        "2019": 1,
+        "2020": 1,
+        "2022": 2,
+        "2024": 2,
+        "2025": 28,
+        "2026": 3288
+      },
+      "existing_records_refreshed": 0,
+      "rejected_records_changed": 0,
+      "previous_manifest_sha256": "373d7ef6baac01f43a7d58c8b7dc8cde4a28cc34e8ea04e3b866733e9f45110f",
+      "selection_policy": "Source state PUBLISHED, ID absent from original published AND rejected IDs, official datePublished strictly after previous cutoff and at or before current cutoff. Original existing records remain unchanged.",
+      "source_coverage_for_additions": {
+        "nvd_matched": 3314,
+        "nvd_missing": 8,
+        "epss_matched": 3206,
+        "epss_missing": 116,
+        "kev_matched": 2,
+        "coverage_and_bounds": {
+          "cvss_source_ADP": 508,
+          "cvss_source_CNA": 2540,
+          "cvss_source_NVD": 1,
+          "epss_matched_records": 3206,
+          "epss_missing_records": 116,
+          "kev_matched_records": 2,
+          "max_metadata_bytes": 15659,
+          "max_text_bytes": 6427,
+          "nvd_matched_records": 3314,
+          "records_with_configurations": 22,
+          "records_with_nvd_configurations": 278,
+          "records_with_solutions": 655,
+          "records_with_workarounds": 123,
+          "text_truncated_records": 361,
+          "version_entries_with_status_changes": 194
+        },
+        "omitted_list_entries": {
+          "affected_products": 16,
+          "affected_ranges": 212,
+          "products": 14,
+          "unaffected_products": 16,
+          "unaffected_ranges": 30
+        }
+      },
+      "sources": {
+        "cve": {
+          "date": "2026-11-09T13:57:43Z",
+          "sha": "d52b78cbe051eaba88a7c0975de4a3cc3c0eb96b",
+          "tree": "9c2c897d46dda5220de464e10870a948bcc9c0fd",
+          "repository": "https://github.com/CVEProject/cvelistV5",
+          "url": "https://codeload.github.com/CVEProject/cvelistV5/tar.gz/d52b78cbe051eaba88a7c0975de4a3cc3c0eb96b",
+          "observed_at_utc": "2026-11-09T14:00:29.930825+00:00",
+          "timestamp_schema": {
+            "url": "https://raw.githubusercontent.com/CVEProject/cve-schema/main/schema/CVE_Record_Format.json",
+            "observed_at_utc": "2026-11-09T14:00:36.532789+00:00",
+            "sha256": "33f7517424facfc712c7b808be1b6503fc74b2e6b85979bbaacb9b623ddfde67",
+            "timestamp_definition": {
+              "type": "string",
+              "description": "Date/time format based on RFC3339 and ISO ISO8601, with an optional timezone in the format 'yyyy-MM-ddTHH:mm:ss[+-]ZH:ZM'. If timezone offset is not given, GMT (+00:00) is assumed.",
+              "pattern": "^(((2000|2400|2800|(19|2[0-9](0[48]|[2468][048]|[13579][26])))-02-29)|(((19|2[0-9])[0-9]{2})-02-(0[1-9]|1[0-9]|2[0-8]))|(((19|2[0-9])[0-9]{2})-(0[13578]|10|12)-(0[1-9]|[12][0-9]|3[01]))|(((19|2[0-9])[0-9]{2})-(0[469]|11)-(0[1-9]|[12][0-9]|30)))T(2[0-3]|[01][0-9]):([0-5][0-9]):([0-5][0-9])(\\.[0-9]+)?(Z|[+-][0-9]{2}:[0-9]{2})?$"
+            }
+          },
+          "download_started_at_utc": "2026-11-09T14:00:36.532900+00:00",
+          "http_headers": {
+            "Content-Length": null,
+            "Content-Type": "application/x-gzip",
+            "Last-Modified": null,
+            "ETag": "\"4459144b9cf6250e04889e8683722f0c36e29836577c2475fb04d7afade1676c\""
+          },
+          "download_completed_at_utc": "2026-11-09T14:01:35.316453+00:00",
+          "download_bytes": 212807562,
+          "download_sha256": "aa8eb1ba88a3cf62712fea0ff0becaf5612b4f2d988ba711af853d7cd662d1fd",
+          "record_count": 421457,
+          "source_state_counts": {
+            "PUBLISHED": 402315,
+            "REJECTED": 19142
+          },
+          "integrity": {
+            "gzip_crc_and_trailer_verified": true,
+            "all_archive_roots_match_pin": true,
+            "all_cve_paths_valid": true,
+            "all_existing_ids_present": true
+          },
+          "selection": {
+            "previous_cutoff": "2026-11-02T13:54:38Z",
+            "current_cutoff": "2026-11-09T13:57:43Z",
+            "prior_manifest_sha256": "373d7ef6baac01f43a7d58c8b7dc8cde4a28cc34e8ea04e3b866733e9f45110f",
+            "prior_ids": 399419,
+            "selected_published": 3322,
+            "additions_by_year": {
+              "2019": 1,
+              "2020": 1,
+              "2022": 2,
+              "2024": 2,
+              "2025": 28,
+              "2026": 3288
+            },
+            "excluded_first_published_before_window": 514,
+            "excluded_published_after_cutoff": 0
+          },
+          "publication_time_policy": "CVE timestamps without offset use official schema GMT semantics; comparisons are aware UTC.",
+          "timezone_implicit_utc_published_count": 2,
+          "basis": "Every CVE record in the complete pinned archive was inspected; records contains only eligible new publications; inventory covers the complete source."
+        },
+        "enrichment": {
+          "cutoff": "2026-11-09T13:57:43Z",
+          "observed_at_utc": "2026-11-09T14:00:51.731850+00:00",
+          "nvd": {
+            "nvd-modified": {
+              "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-modified.json.gz",
+              "download_started_at_utc": "2026-11-09T14:00:52.051713+00:00",
+              "download_completed_at_utc": "2026-11-09T14:00:56.865868+00:00",
+              "http_status": 200,
+              "http_headers": {
+                "Date": "Mon, 09 Nov 2026 14:00:52 GMT",
+                "Content-Type": "application/x-gzip",
+                "Content-Length": "7454758",
+                "last-modified": "Mon, 09 Nov 2026 13:15:11 GMT",
+                "etag": "\"80d95b594c70dd1:0\""
+              },
+              "bytes": 7454758,
+              "download_bytes": 7454758,
+              "download_sha256": "e6f363f73c6334383cefd7ccbc4981c5e7a721831d177369db54abb5f141c33c",
+              "last_modified": "Mon, 09 Nov 2026 13:15:11 GMT",
+              "meta_url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-modified.meta",
+              "meta": {
+                "lastModifiedDate": "2026-11-09T08:00:05-05:00",
+                "size": "82970588",
+                "zipSize": "7454902",
+                "gzSize": "7454758",
+                "sha256": "444DD11BC2EC0CB02DD93E95DBBA1F7863BED106632359A8A06196D029ABF630"
+              },
+              "meta_receipt": {
+                "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-modified.meta",
+                "download_started_at_utc": "2026-11-09T14:00:51.740081+00:00",
+                "download_completed_at_utc": "2026-11-09T14:00:52.049913+00:00",
+                "http_status": 200,
+                "http_headers": {
+                  "Date": "Mon, 09 Nov 2026 14:00:52 GMT",
+                  "Content-Type": "text/plain",
+                  "etag": "W/\"043c3584c70dd1:0\"",
+                  "last-modified": "Mon, 09 Nov 2026 13:15:10 GMT"
+                },
+                "bytes": 165,
+                "download_bytes": 165,
+                "download_sha256": "64a4b408b96fa027f06bb37569e14016a82de7ada3f65974b7b016612b4c2b4a",
+                "last_modified": "Mon, 09 Nov 2026 13:15:10 GMT"
+              },
+              "header": {
+                "resultsPerPage": 12684,
+                "startIndex": 0,
+                "totalResults": 12684,
+                "format": "NVD_CVE",
+                "version": "2.0",
+                "timestamp": "2026-11-09T08:00:03.3211866"
+              },
+              "record_count": 12684,
+              "unique_id_count": 12684,
+              "cve_id_year_counts": {
+                "2006": 1,
+                "2007": 1,
+                "2009": 1,
+                "2011": 5,
+                "2012": 1,
+                "2015": 3,
+                "2017": 4,
+                "2019": 82,
+                "2018": 1,
+                "2020": 64,
+                "2021": 38,
+                "2022": 367,
+                "2023": 384,
+                "2024": 427,
+                "2025": 2090,
+                "2026": 9210,
+                "2013": 3,
+                "2014": 2
+              },
+              "uncompressed_sha256": "444dd11bc2ec0cb02dd93e95dbba1f7863bed106632359a8a06196d029abf630",
+              "uncompressed_bytes": 82970588,
+              "verified": true,
+              "json_validated": true
+            },
+            "nvd-live": {
+              "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+              "window_start": "2026-11-09T12:58:05Z",
+              "window_end": "2026-11-09T13:57:43Z",
+              "meta": {
+                "lastModifiedDate": "2026-11-09T13:57:43Z"
+              },
+              "record_count": 70,
+              "unique_id_count": 70,
+              "pages": [
+                {
+                  "url": "https://services.nvd.nist.gov/rest/json/cves/2.0?lastModStartDate=2026-11-09T12%3A58%3A05Z&lastModEndDate=2026-11-09T13%3A57%3A43Z&resultsPerPage=2000&startIndex=0",
+                  "download_started_at_utc": "2026-11-09T14:00:57.490196+00:00",
+                  "download_completed_at_utc": "2026-11-09T14:00:58.425581+00:00",
+                  "http_status": 200,
+                  "http_headers": {
+                    "Date": "Mon, 09 Nov 2026 14:00:57 GMT",
+                    "Content-Type": "application/json",
+                    "Content-Length": "180206"
+                  },
+                  "bytes": 180206,
+                  "download_bytes": 180206,
+                  "download_sha256": "db69cac66b4e20f0daa9fc790ad4694fe02fc115884af8a4ab041d78f53076e7",
+                  "last_modified": null,
+                  "resultsPerPage": 70,
+                  "startIndex": 0,
+                  "totalResults": 70,
+                  "format": "NVD_CVE",
+                  "version": "2.0",
+                  "timestamp": "2026-11-09T14:00:57.036"
+                }
+              ],
+              "bytes": 180278,
+              "download_sha256": "9cc9364e5b4717114c1803da05651955e468240f2c78cdbc5df569d095767cd6",
+              "verified": true,
+              "pagination_complete": true,
+              "modified_feed_timestamp": "2026-11-09T13:00:05Z",
+              "modified_feed_after_cve_cutoff": false,
+              "rate_limit_delay_seconds": 6.5
+            },
+            "nvd-2019": {
+              "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2019.json.gz",
+              "download_started_at_utc": "2026-11-09T14:02:20.343631+00:00",
+              "download_completed_at_utc": "2026-11-09T14:02:26.072585+00:00",
+              "http_status": 200,
+              "http_headers": {
+                "Date": "Mon, 09 Nov 2026 14:02:20 GMT",
+                "Content-Type": "application/x-gzip",
+                "Content-Length": "10200293",
+                "last-modified": "Sat, 07 Nov 2026 08:15:17 GMT",
+                "etag": "\"80d8451f906edd1:0\""
+              },
+              "bytes": 10200293,
+              "download_bytes": 10200293,
+              "download_sha256": "5bc4a539622b3353488500f2be43f622954c3f75aa8e96207d8422f79b19c48f",
+              "last_modified": "Sat, 07 Nov 2026 08:15:17 GMT",
+              "meta_url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2019.meta",
+              "meta": {
+                "lastModifiedDate": "2026-11-07T03:03:31-05:00",
+                "size": "126126714",
+                "zipSize": "10200429",
+                "gzSize": "10200293",
+                "sha256": "FB87319FEF0C36DA83D66E8323097A07F77B3ABCB7E083D76F171F91815DB70F"
+              },
+              "meta_receipt": {
+                "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2019.meta",
+                "download_started_at_utc": "2026-11-09T14:02:20.136100+00:00",
+                "download_completed_at_utc": "2026-11-09T14:02:20.343172+00:00",
+                "http_status": 200,
+                "http_headers": {
+                  "Date": "Mon, 09 Nov 2026 14:02:20 GMT",
+                  "Content-Type": "text/plain",
+                  "etag": "W/\"80d8451f906edd1:0\"",
+                  "last-modified": "Sat, 07 Nov 2026 08:15:17 GMT"
+                },
+                "bytes": 168,
+                "download_bytes": 168,
+                "download_sha256": "547d2cbff97fddcd7dc90ad28e5b88f389c56f906f4d4aed55f1e90067b80dd8",
+                "last_modified": "Sat, 07 Nov 2026 08:15:17 GMT"
+              },
+              "header": {
+                "resultsPerPage": 17684,
+                "startIndex": 0,
+                "totalResults": 17684,
+                "format": "NVD_CVE",
+                "version": "2.0",
+                "timestamp": "2026-11-07T03:03:28.5814672"
+              },
+              "record_count": 17684,
+              "unique_id_count": 17684,
+              "cve_id_year_counts": {
+                "2019": 17684
+              },
+              "uncompressed_sha256": "fb87319fef0c36da83d66e8323097a07f77b3abcb7e083d76f171f91815db70f",
+              "uncompressed_bytes": 126126714,
+              "verified": true,
+              "json_validated": true
+            },
+            "nvd-2020": {
+              "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2020.json.gz",
+              "download_started_at_utc": "2026-11-09T14:02:20.372181+00:00",
+              "download_completed_at_utc": "2026-11-09T14:02:27.010129+00:00",
+              "http_status": 200,
+              "http_headers": {
+                "Date": "Mon, 09 Nov 2026 14:02:20 GMT",
+                "Content-Type": "application/x-gzip",
+                "Content-Length": "14017038",
+                "last-modified": "Sun, 08 Nov 2026 08:15:15 GMT",
+                "etag": "\"806b7e48596fdd1:0\""
+              },
+              "bytes": 14017038,
+              "download_bytes": 14017038,
+              "download_sha256": "5e076b33afd48f584a33d1b215eb3a5e5875e7c862071a517ed085b3ad752108",
+              "last_modified": "Sun, 08 Nov 2026 08:15:15 GMT",
+              "meta_url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2020.meta",
+              "meta": {
+                "lastModifiedDate": "2026-11-08T03:03:02-05:00",
+                "size": "165722622",
+                "zipSize": "14017174",
+                "gzSize": "14017038",
+                "sha256": "BD60BF67045566E545E45CFB5EDA2DEEC9B33FD2D4908AC3A4939E8FFB5C7650"
+              },
+              "meta_receipt": {
+                "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2020.meta",
+                "download_started_at_utc": "2026-11-09T14:02:20.136445+00:00",
+                "download_completed_at_utc": "2026-11-09T14:02:20.371853+00:00",
+                "http_status": 200,
+                "http_headers": {
+                  "Date": "Mon, 09 Nov 2026 14:02:20 GMT",
+                  "Content-Type": "text/plain",
+                  "etag": "W/\"806b7e48596fdd1:0\"",
+                  "last-modified": "Sun, 08 Nov 2026 08:15:15 GMT"
+                },
+                "bytes": 168,
+                "download_bytes": 168,
+                "download_sha256": "54d18965c969a18db3779315f0c244dcd188bf0a7d88df159a26560bbdfa543f",
+                "last_modified": "Sun, 08 Nov 2026 08:15:15 GMT"
+              },
+              "header": {
+                "resultsPerPage": 21141,
+                "startIndex": 0,
+                "totalResults": 21141,
+                "format": "NVD_CVE",
+                "version": "2.0",
+                "timestamp": "2026-11-08T03:02:57.5196699"
+              },
+              "record_count": 21141,
+              "unique_id_count": 21141,
+              "cve_id_year_counts": {
+                "2020": 21141
+              },
+              "uncompressed_sha256": "bd60bf67045566e545e45cfb5eda2deec9b33fd2d4908ac3a4939e8ffb5c7650",
+              "uncompressed_bytes": 165722622,
+              "verified": true,
+              "json_validated": true
+            },
+            "nvd-2022": {
+              "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2022.json.gz",
+              "download_started_at_utc": "2026-11-09T14:02:26.861526+00:00",
+              "download_completed_at_utc": "2026-11-09T14:02:33.498009+00:00",
+              "http_status": 200,
+              "http_headers": {
+                "Date": "Mon, 09 Nov 2026 14:02:27 GMT",
+                "Content-Type": "application/x-gzip",
+                "Content-Length": "18410913",
+                "last-modified": "Sat, 07 Nov 2026 08:15:17 GMT",
+                "etag": "\"80d8451f906edd1:0\""
+              },
+              "bytes": 18410913,
+              "download_bytes": 18410913,
+              "download_sha256": "a98142c526cd67af7f45a10389f04b23660d1489b542082f50f4189fd2972eb6",
+              "last_modified": "Sat, 07 Nov 2026 08:15:17 GMT",
+              "meta_url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2022.meta",
+              "meta": {
+                "lastModifiedDate": "2026-11-07T03:02:54-05:00",
+                "size": "217183593",
+                "zipSize": "18411049",
+                "gzSize": "18410913",
+                "sha256": "D70AE01DFFDCE5905003A9061BA16901BAA5463BFCF9A331FE50C1AFD070CB69"
+              },
+              "meta_receipt": {
+                "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2022.meta",
+                "download_started_at_utc": "2026-11-09T14:02:26.633292+00:00",
+                "download_completed_at_utc": "2026-11-09T14:02:26.860934+00:00",
+                "http_status": 200,
+                "http_headers": {
+                  "Date": "Mon, 09 Nov 2026 14:02:26 GMT",
+                  "Content-Type": "text/plain",
+                  "etag": "W/\"80d8451f906edd1:0\"",
+                  "last-modified": "Sat, 07 Nov 2026 08:15:17 GMT"
+                },
+                "bytes": 168,
+                "download_bytes": 168,
+                "download_sha256": "a4fa643d452c7d3c3005a842bf4e81e8614f8e70a6e07a57c7140a893337b87a",
+                "last_modified": "Sat, 07 Nov 2026 08:15:17 GMT"
+              },
+              "header": {
+                "resultsPerPage": 27632,
+                "startIndex": 0,
+                "totalResults": 27632,
+                "format": "NVD_CVE",
+                "version": "2.0",
+                "timestamp": "2026-11-07T03:02:48.6158746"
+              },
+              "record_count": 27632,
+              "unique_id_count": 27632,
+              "cve_id_year_counts": {
+                "2022": 27632
+              },
+              "uncompressed_sha256": "d70ae01dffdce5905003a9061ba16901baa5463bfcf9a331fe50c1afd070cb69",
+              "uncompressed_bytes": 217183593,
+              "verified": true,
+              "json_validated": true
+            },
+            "nvd-2024": {
+              "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2024.json.gz",
+              "download_started_at_utc": "2026-11-09T14:02:28.034229+00:00",
+              "download_completed_at_utc": "2026-11-09T14:02:35.880343+00:00",
+              "http_status": 200,
+              "http_headers": {
+                "Date": "Mon, 09 Nov 2026 14:02:28 GMT",
+                "Content-Type": "application/x-gzip",
+                "Content-Length": "25147050",
+                "last-modified": "Mon, 09 Nov 2026 08:15:13 GMT",
+                "etag": "\"80feb6712270dd1:0\""
+              },
+              "bytes": 25147050,
+              "download_bytes": 25147050,
+              "download_sha256": "f90c413ea33cbc567c247a0fbb517c95341fa19bdd362705bd34d00bb58667e7",
+              "last_modified": "Mon, 09 Nov 2026 08:15:13 GMT",
+              "meta_url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2024.meta",
+              "meta": {
+                "lastModifiedDate": "2026-11-09T03:01:44-05:00",
+                "size": "293745058",
+                "zipSize": "25147186",
+                "gzSize": "25147050",
+                "sha256": "777BC4D2EEA97EF6BBB0A0597B505C10A6C40968388678A7D22B9F45B70A6682"
+              },
+              "meta_receipt": {
+                "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2024.meta",
+                "download_started_at_utc": "2026-11-09T14:02:27.789563+00:00",
+                "download_completed_at_utc": "2026-11-09T14:02:28.033865+00:00",
+                "http_status": 200,
+                "http_headers": {
+                  "Date": "Mon, 09 Nov 2026 14:02:28 GMT",
+                  "Content-Type": "text/plain",
+                  "etag": "W/\"80feb6712270dd1:0\"",
+                  "last-modified": "Mon, 09 Nov 2026 08:15:13 GMT"
+                },
+                "bytes": 168,
+                "download_bytes": 168,
+                "download_sha256": "3876eb5d580cccf333f804bdda8c86441a72956bf62f664c205e6132f59e3f97",
+                "last_modified": "Mon, 09 Nov 2026 08:15:13 GMT"
+              },
+              "header": {
+                "resultsPerPage": 39369,
+                "startIndex": 0,
+                "totalResults": 39369,
+                "format": "NVD_CVE",
+                "version": "2.0",
+                "timestamp": "2026-11-09T03:01:35.3962771"
+              },
+              "record_count": 39369,
+              "unique_id_count": 39369,
+              "cve_id_year_counts": {
+                "2024": 39369
+              },
+              "uncompressed_sha256": "777bc4d2eea97ef6bbb0a0597b505c10a6c40968388678a7d22b9f45b70a6682",
+              "uncompressed_bytes": 293745058,
+              "verified": true,
+              "json_validated": true
+            },
+            "nvd-2025": {
+              "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2025.json.gz",
+              "download_started_at_utc": "2026-11-09T14:02:34.615196+00:00",
+              "download_completed_at_utc": "2026-11-09T14:02:42.487699+00:00",
+              "http_status": 200,
+              "http_headers": {
+                "Date": "Mon, 09 Nov 2026 14:02:34 GMT",
+                "Content-Type": "application/x-gzip",
+                "Content-Length": "25869951",
+                "last-modified": "Mon, 09 Nov 2026 08:15:13 GMT",
+                "etag": "\"80feb6712270dd1:0\""
+              },
+              "bytes": 25869951,
+              "download_bytes": 25869951,
+              "download_sha256": "931a01ff0d51f83b0331e352bd3e2fef151aa8d8b48f6d09ef6374b4e84a5676",
+              "last_modified": "Mon, 09 Nov 2026 08:15:13 GMT",
+              "meta_url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2025.meta",
+              "meta": {
+                "lastModifiedDate": "2026-11-09T03:01:13-05:00",
+                "size": "295852585",
+                "zipSize": "25870087",
+                "gzSize": "25869951",
+                "sha256": "17485621D19368646FD12C7681517E96BD1606F001FFE74B4B0567E3F54BA78D"
+              },
+              "meta_receipt": {
+                "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2025.meta",
+                "download_started_at_utc": "2026-11-09T14:02:34.429544+00:00",
+                "download_completed_at_utc": "2026-11-09T14:02:34.614870+00:00",
+                "http_status": 200,
+                "http_headers": {
+                  "Date": "Mon, 09 Nov 2026 14:02:34 GMT",
+                  "Content-Type": "text/plain",
+                  "etag": "W/\"80feb6712270dd1:0\"",
+                  "last-modified": "Mon, 09 Nov 2026 08:15:13 GMT"
+                },
+                "bytes": 168,
+                "download_bytes": 168,
+                "download_sha256": "8d394ffc82b268a99cd2f51930bab77db1b2b8195bce99e9f7b975588c611e72",
+                "last_modified": "Mon, 09 Nov 2026 08:15:13 GMT"
+              },
+              "header": {
+                "resultsPerPage": 45482,
+                "startIndex": 0,
+                "totalResults": 45482,
+                "format": "NVD_CVE",
+                "version": "2.0",
+                "timestamp": "2026-11-09T03:01:04.0633371"
+              },
+              "record_count": 45482,
+              "unique_id_count": 45482,
+              "cve_id_year_counts": {
+                "2025": 45482
+              },
+              "uncompressed_sha256": "17485621d19368646fd12c7681517e96bd1606f001ffe74b4b0567e3f54ba78d",
+              "uncompressed_bytes": 295852585,
+              "verified": true,
+              "json_validated": true
+            },
+            "nvd-2026": {
+              "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2026.json.gz",
+              "download_started_at_utc": "2026-11-09T14:02:37.388820+00:00",
+              "download_completed_at_utc": "2026-11-09T14:03:04.901210+00:00",
+              "http_status": 200,
+              "http_headers": {
+                "Date": "Mon, 09 Nov 2026 14:02:57 GMT",
+                "Content-Type": "application/x-gzip",
+                "Content-Length": "44575867",
+                "last-modified": "Mon, 09 Nov 2026 08:15:13 GMT",
+                "etag": "\"80feb6712270dd1:0\""
+              },
+              "bytes": 44575867,
+              "download_bytes": 44575867,
+              "download_sha256": "8757ed9713bc7b7c6991f44f5ad2a2a2223d725265d68f422952381b61a97dde",
+              "last_modified": "Mon, 09 Nov 2026 08:15:13 GMT",
+              "meta_url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2026.meta",
+              "meta": {
+                "lastModifiedDate": "2026-11-09T03:00:23-05:00",
+                "size": "527484894",
+                "zipSize": "44576003",
+                "gzSize": "44575867",
+                "sha256": "BBFFAB4CFABFE5F69ADADF5AD056382C89F5953206D57DD504A6AC57D8DBA687"
+              },
+              "meta_receipt": {
+                "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2026.meta",
+                "download_started_at_utc": "2026-11-09T14:02:37.156246+00:00",
+                "download_completed_at_utc": "2026-11-09T14:02:37.388402+00:00",
+                "http_status": 200,
+                "http_headers": {
+                  "Date": "Mon, 09 Nov 2026 14:02:37 GMT",
+                  "Content-Type": "text/plain",
+                  "etag": "W/\"80feb6712270dd1:0\"",
+                  "last-modified": "Mon, 09 Nov 2026 08:15:13 GMT"
+                },
+                "bytes": 168,
+                "download_bytes": 168,
+                "download_sha256": "02bbefa90c673d2f5e610ccaf3520d7462b167cdc87d150eb4ef1701343af581",
+                "last_modified": "Mon, 09 Nov 2026 08:15:13 GMT"
+              },
+              "header": {
+                "resultsPerPage": 86940,
+                "startIndex": 0,
+                "totalResults": 86940,
+                "format": "NVD_CVE",
+                "version": "2.0",
+                "timestamp": "2026-11-09T03:00:01.5741499"
+              },
+              "record_count": 86940,
+              "unique_id_count": 86940,
+              "cve_id_year_counts": {
+                "2026": 86940
+              },
+              "uncompressed_sha256": "bbffab4cfabfe5f69adadf5ad056382c89f5953206d57dd504a6ac57d8dba687",
+              "uncompressed_bytes": 527484894,
+              "verified": true,
+              "json_validated": true
+            }
+          },
+          "completeness": {
+            "status": "complete",
+            "requested_annual_feed_years": [
+              2019,
+              2020,
+              2022,
+              2024,
+              2025,
+              2026
+            ],
+            "core_sources_verified": true,
+            "nvd_api_complete": true,
+            "api_window_boundary_overlap_seconds": 120,
+            "scope": "Official NVD annual feeds for selected CVE ID years only, plus modified feed and complete API overlap/catch-up; per-CVE enrichment coverage is measured during transformation. Source timestamps are actual observations, and are independent of the CVE publication-selection cutoff.",
+            "annual_feeds_verified": true,
+            "all_feed_cutoffs_at_or_before_cve_cutoff": true,
+            "feed_cutoffs_after_cve_cutoff": {},
+            "nvd_source_count": 8,
+            "annual_feed_count": 6,
+            "annual_record_total": 238248,
+            "modified_record_count": 12684,
+            "api_record_count": 70
+          },
+          "cve_source_commit": "d52b78cbe051eaba88a7c0975de4a3cc3c0eb96b",
+          "epss": {
+            "url": "https://epss.empiricalsecurity.com/epss_scores-2026-11-09.csv.gz",
+            "download_started_at_utc": "2026-11-09T14:00:51.740283+00:00",
+            "download_completed_at_utc": "2026-11-09T14:00:55.255067+00:00",
+            "http_status": 200,
+            "http_headers": {
+              "Content-Type": "binary/octet-stream",
+              "Content-Length": "2820519",
+              "Date": "Mon, 09 Nov 2026 13:31:56 GMT",
+              "Last-Modified": "Mon, 09 Nov 2026 13:30:38 GMT",
+              "ETag": "\"7846e38a42c4efc865a3bdd58467c602\""
+            },
+            "bytes": 2820519,
+            "download_bytes": 2820519,
+            "download_sha256": "23bda31009c5c72fe7cdce2bc60b06bc9f41d113d631f13971192f4657ed714a",
+            "last_modified": "Mon, 09 Nov 2026 13:30:38 GMT",
+            "model_version": "v2026.06.15",
+            "score_date": "2026-11-09T12:00:23Z",
+            "record_count": 402199,
+            "unique_id_count": 402199,
+            "cve_id_year_counts": {
+              "2022": 26457,
+              "2017": 14769,
+              "2025": 43689,
+              "2018": 16190,
+              "2014": 8436,
+              "2020": 19404,
+              "2021": 22613,
+              "2024": 38501,
+              "2009": 4921,
+              "2016": 9376,
+              "2026": 85612,
+              "2011": 4646,
+              "2006": 6995,
+              "2012": 5492,
+              "2002": 2357,
+              "2023": 30669,
+              "2007": 6458,
+              "2004": 2644,
+              "2019": 16102,
+              "2015": 8118,
+              "2013": 6226,
+              "1999": 1540,
+              "2000": 1236,
+              "2005": 4627,
+              "2010": 5075,
+              "2008": 7005,
+              "2001": 1537,
+              "2003": 1504
+            },
+            "uncompressed_sha256": "7e61087adb383fcd1eab5840e456cbe5a144005f1b24e3e2252b24d4178f6764",
+            "uncompressed_bytes": 12235698,
+            "official_link_source": "https://www.first.org/epss/data",
+            "verified": true,
+            "official_link_verification": {
+              "url": "https://www.first.org/epss/data",
+              "http_status": 200,
+              "observed_at_utc": "2026-11-09T14:02:14.652469+00:00",
+              "download_sha256": "6a089c3a74a2cee42e3819ea0739d2871d2d281c23851ae5ba657d7336dba27b",
+              "official_data_urls": [
+                "https://epss.empiricalsecurity.com/epss_scores-current.csv.gz"
+              ]
+            }
+          },
+          "kev": {
+            "url": "https://raw.githubusercontent.com/cisagov/kev-data/e5b3a9b25050a8da26c96266c5bfe438ee0bdebc/known_exploited_vulnerabilities.json",
+            "download_started_at_utc": "2026-11-09T14:00:56.111829+00:00",
+            "download_completed_at_utc": "2026-11-09T14:00:57.479756+00:00",
+            "http_status": 200,
+            "http_headers": {
+              "Content-Length": "1832349",
+              "Content-Type": "text/plain; charset=utf-8",
+              "ETag": "\"bdedd884c88ceb739ea3f98c3e5ca5117834fba2bf37df30e2de83890d5f50cc\"",
+              "Date": "Mon, 09 Nov 2026 14:00:56 GMT"
+            },
+            "bytes": 1832349,
+            "download_bytes": 1832349,
+            "download_sha256": "47e0406b2be5a40420eff66f3d90e83eb8883dae6ff4d08e1b2a942c366f6cc2",
+            "last_modified": null,
+            "sha": "e5b3a9b25050a8da26c96266c5bfe438ee0bdebc",
+            "date": "2026-11-06T21:18:59Z",
+            "repository": "https://github.com/cisagov/kev-data",
+            "revision_url": "https://github.com/cisagov/kev-data/commit/e5b3a9b25050a8da26c96266c5bfe438ee0bdebc",
+            "revision_lookup": {
+              "url": "https://api.github.com/repos/cisagov/kev-data/commits/develop",
+              "download_started_at_utc": "2026-11-09T14:00:55.741252+00:00",
+              "download_completed_at_utc": "2026-11-09T14:00:56.111597+00:00",
+              "http_status": 200,
+              "http_headers": {
+                "Date": "Mon, 09 Nov 2026 14:00:56 GMT",
+                "Content-Type": "application/json; charset=utf-8",
+                "ETag": "W/\"2c1122b0863164c22ccc7834fcd945ce0b501ca466a118998bc21f745cd4da14\"",
+                "Last-Modified": "Fri, 06 Nov 2026 21:18:59 GMT"
+              },
+              "bytes": 12707,
+              "download_bytes": 12707,
+              "download_sha256": "2c1122b0863164c22ccc7834fcd945ce0b501ca466a118998bc21f745cd4da14",
+              "last_modified": "Fri, 06 Nov 2026 21:18:59 GMT"
+            },
+            "catalogVersion": "2026.11.06",
+            "dateReleased": "2026-11-06T19:44:45.1797Z",
+            "count": 1769,
+            "record_count": 1769,
+            "unique_id_count": 1769,
+            "verified": true
+          },
+          "completed_at_utc": "2026-11-09T14:03:17.649948+00:00"
+        }
+      },
+      "record_policies_for_additions": {
+        "cohort": "Exact new PUBLISHED IDs absent from the prior corpus and rejected file, with official publication date strictly after previous cutoff and at or before current cutoff.",
+        "description": "CNA English preferred; ADP fallback, then NVD fallback only if absent.",
+        "cvss": "CNA then ADP; NVD only when both have no CVSS. Highest version within provider tier, deterministic provider tie-break. Other CVE assessments retained where bounded.",
+        "cwe": "CNA plus ADP; NVD fallback if no explicit CWE code.",
+        "version_status": "Status changes preserved in explicit source rules; defaults only outside listed entries; unaffected does not mean fixed.",
+        "nvd_configurations": "Boolean AND/OR/negate preserved. vulnerable:false is applicability context, never globally unaffected status.",
+        "remediation": "CNA plus ADP solutions and workarounds. has_solution_guidance and has_workaround_guidance indicate source field presence, not fix availability.",
+        "legacy_enrichment": "No prior inferred classifications or specialized exploit-index mappings retained.",
+        "bounds": "Text at most 8000 UTF-8 bytes; stored metadata including text and cve_id at most39000 bytes. List omissions and text truncation explicit.",
+        "vendor_product_fallback": "When CVE vendor/product labels are missing, NVD vulnerable:true CPE labels supply informational product filters. Full boolean applicability conditions remain authoritative; no global affected/unaffected status is inferred from these labels.",
+        "unknowns": "Missing enrichment fields omitted; cisa_kev=false means absent from the specified complete catalog, not proof of no exploitation."
+      },
+      "transformer_sha256": "0cb07c0d0b9da4dcbf51d1b5a467ac3bdd267329f5d6b69d440b11d8fa12dcf8",
+      "validation": {
+        "independent_validation": "passed",
+        "exact_expected_new_id_set": true,
+        "raw_cve_archive_records_independently_checked": 421457,
+        "existing_records_unchanged": true,
+        "previous_searchable_records_verified_unchanged": 398551,
+        "rejected_file_byte_identical": true,
+        "unaffected_yearly_files_byte_identical": 22,
+        "new_source_values_verified": 3322,
         "source_checks": [
           "publication window, state, and complete pinned archive",
           "CVE provenance, descriptions, titles, and references",
